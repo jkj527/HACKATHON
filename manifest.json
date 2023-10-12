@@ -1,0 +1,20 @@
+{
+    "name": "Cursor Cat",
+    "version": "1.0.0",
+    "description": "This extension allows you adopt a clingy cat ladybug.",
+    "author": "Yvonne & Jake",
+    "permissions": ["activeTab"],
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Cursor Cat",
+        "default_icon":"./cursorcat.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["main.js"],
+            "run_at": "document_end"
+        }
+    ]
+}
