@@ -5,6 +5,16 @@
 }
 
 #checkButton {
-    height: 500px;
-    width: 500px;
+    height: 550px;
+    width: 550px;
+    background-color: #d4b1e4;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    transition: background-color 0.3s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
+
+#checkButton:hover {
+    background-color: #e4b1c5;
 }
